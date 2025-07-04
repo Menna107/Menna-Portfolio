@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menna Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- AOS Library CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <!-- left side -->
+                <div class="left-side">
+                    <button id="theme-toggle" class="theme-toggle">
+                        <i id="theme-icon" class="fas fa-moon"></i>
+                    </button>
+                    <a href="#Home" class="brand-link">
+                        <h4>
+                            <span class="first-name">Menna</span>
+                            <span class="last-name">Hekal</span>
+                        </h4>
+                    </a>
+                </div>
+
+                <!-- right side -->
+                <div class="right-side">
+                    <a href="#Home" class="nav-link">Home</a>
+                    <a href="#About" class="nav-link">About</a>
+                    <a href="#Projects" class="nav-link">Projects</a>
+                    <a href="#Skills" class="nav-link">Skills</a>
+                    <a href="#certificates" class="nav-link">Certificates</a>
+                    <a href="#Contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="Home" data-aos="fade-up">
+        <div class="left-section">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/menna-hekal-231286294/" target="_blank" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Menna107" target="_blank" class="icon github"><i class="fab fa-github"></i></a>
+                <a href="mailto:menna0hekal2020@gmail.com" class="icon email"><i class="fas fa-envelope"></i></a>
+            </div>
+
+            <div class="main-heading">
+                <h1><span class="highlight">Hi, I'm</span> Menna Hekal</h1>
+                <h3>Software Developer</h3>
+                <p>
+                    I'm a passionate and dedicated Software Developer with a background in web development and problem solving.
+                    I enjoy turning creative ideas into functional, user-friendly applications.
+                    <br><br>
+                    I also believe in the power of knowledge sharing — I've volunteered as a programming instructor to empower girls through coding.
+                    I'm constantly exploring new technologies and always eager to learn and grow.
+                </p>
+                <div class="hero-buttons">
+                    <a href="files/MennaHekal-CV.pdf" download class="btn download-btn">Download CV</a>
+                    <a href="#Contact" class="btn contact-btn">Let's Talk</a>
+                </div>
+            </div>
+        </div>
+        <div class="triangle-top-right"></div>
+        <div class="triangle-bottom-right"></div>
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about-section" id="About" data-aos="fade-up">
+        <div class="about-container">
+            <div class="about-left">
+                <div class="image-container">
+                    <div class="about-placeholder"></div>
+                </div>
+            </div>
+            <div class="about-right">
+                <h1>About Me</h1>
+                <p>
+                    I am a student at the Faculty of Computers and Artificial Intelligence, Cairo University.
+                    I am passionate about software development, especially full-stack development.
+                    I enjoy problem-solving, collaborating on real-world projects, and continuously learning new technologies.
+                </p>
+                <div class="info-container">
+                    <label><span class="info-title">Name:</span> Menna Allah Mohamed Hekal</label>
+                    <label><span class="info-title">Age:</span> 20</label>
+                    <label><span class="info-title">Address:</span> Egypt, Giza, 6th of October</label>
+                    <label><span class="info-title">Education:</span> Faculty of Computers and Artificial Intelligence, Cairo University</label>
+                </div>
+                <a href="files/MennaHekal-CV.pdf" download class="btn download-btn about-btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+   <section class="projects-section" id="Projects" data-aos="fade-up">
+        <h1 class="section-title">My Projects</h1>
+        <div class="projects-container">
+
+           <!-- Project 1 -->
+            <div class="project-card" data-aos="fade-up">
+                <a href="https://drive.google.com/file/d/1IXTm0nuLE4lDJn1woYAIasMolWpZJ4Rj/view?usp=sharing" target="_blank">
+                    <img src="media/library-poster.jpg" alt="Library Video" class="video-poster">
+                </a>
+                <div class="project-content">
+                    <h3>Library Website</h3>
+                    <p>
+                    A full-stack Django web application featuring user signup/login, book borrowing, admin dashboard,
+                    and role-based access. Designed with custom templates and Django ORM.
+                    </p>
+                    <div class="project-links">
+                    <a href="https://github.com/Menna107/library_Website" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Project 2 -->
+            <div class="project-card" data-aos="fade-up">
+                <a href="https://drive.google.com/file/d/1WAhI9T_FIGatcon_rFukMp6hvNA8s0xQ/view?usp=sharing" target="_blank">
+                    <img src="media/games-poster.jpg" alt="Games Video" class="video-poster">
+                </a>
+                <div class="project-content">
+                    <h3>Games Website</h3>
+                    <p>
+                    A responsive HTML/CSS/JavaScript site showcasing five simple interactive browser games.
+                    Focused on clean UI, animations, and vanilla JS logic.
+                    </p>
+                    <div class="project-links">
+                    <a href="https://github.com/Menna107/Simple-Games" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://menna107.github.io/Simple-Games/" target="_blank" class="project-btn github">
+                        <i class="fas fa-globe"></i> Live
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card" data-aos="fade-up">
+                <a href="https://drive.google.com/file/d/1NSHbOGWoc2l-4cVJ5W427fdMF3n1fzhO/view?usp=sharing" target="_blank">
+                    <img src="media/taskmanager-poster.jpg" alt="Task Manager Video" class="video-poster">
+                </a>
+                <div class="project-content">
+                    <h3>Task Management App</h3>
+                    <p>
+                    A desktop application built with WinForms (.NET C#) for managing tasks and workers.
+                    Features adding, deleting, updating, and viewing tasks with SQL Server integration.
+                    </p>
+                    <div class="project-links">
+                    <a href="https://github.com/Menna107/WorkerTaskManager" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        </section>
+
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="Skills" data-aos="fade-up">
+        <h1 class="section-title">My Skills</h1>
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="fade-up"><i class="fas fa-code"></i><h3>C++</h3><p>Advanced</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-html5"></i><h3>HTML</h3><p>Advanced</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fas fa-database"></i><h3>Data Structures</h3></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-python"></i><h3>Python</h3><p>Intermediate</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-java"></i><h3>Java</h3><p>Intermediate</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-css3-alt"></i><h3>CSS</h3><p>Intermediate</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fas fa-database"></i><h3>SQL Server</h3><p>Intermediate</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-js"></i><h3>JavaScript</h3><p>Intermediate</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-python"></i><h3>Django</h3><p>Familiar</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-windows"></i><h3>WinForms</h3><p>Familiar</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fas fa-code"></i><h3>C#</h3><p>Familiar</p></div>
+        </div>
+    </section>
+
+
+    <!-- Certificates Section -->
+    <section class="certificates" id="certificates" data-aos="fade-up">
+        <h2 class="section-title">Certificates</h2>
+        <div class="certificates-container">
+            <div class="certificate-card" data-aos="fade-up">
+                <img src="media/tableau.jpg" alt="Tableau Certificate" class="certificate-image">
+                <div class="certificate-content">
+                    <div class="certificate-header">
+                        <i class="fas fa-award"></i>
+                        <h3>Tableau Fundamentals</h3>
+                    </div>
+                    <div class="certificate-separator"></div>
+                    <p><strong>Platform</strong> Online Course (Udemy/YouTube)</p>
+                    <p><strong>Content</strong> Dashboard Design, Data Visualization</p>
+                </div>
+            </div>
+
+            <div class="certificate-card" data-aos="fade-up">
+                <img src="media/GameDevelopment.jpg" alt="Game Development Certificate" class="certificate-image">
+                <div class="certificate-content">
+                    <div class="certificate-header">
+                        <i class="fas fa-gamepad"></i>
+                        <h3>Game Development Basics</h3>
+                    </div>
+                    <div class="certificate-separator"></div>
+                    <p><strong>Platform</strong> Online Course</p>
+                    <p><strong>Content</strong> Unity Basics</p>
+                </div>
+            </div>
+
+            <div class="certificate-card" data-aos="fade-up">
+                <img src="media/A7laShabab.jpg" alt="Teaching Certificate" class="certificate-image">
+                <div class="certificate-content">
+                    <div class="certificate-header">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h3>Teaching & Instruction Skills</h3>
+                    </div>
+                    <div class="certificate-separator"></div>
+                    <p><strong>Platform</strong> Volunteer Work</p>
+                    <p><strong>Content</strong> Lesson Planning, Communication</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="Contact" data-aos="fade-up">
+        <div class="contact-container">
+            <div class="contact-left">
+                <div class="main-heading">
+                    <h1 class="section-title">Contact Me</h1>
+                    <p>
+                        I'm always excited to connect! Whether you have an idea for collaboration,
+                        a question about my work, or just want to chat about tech,
+                        feel free to get in touch.
+                    </p>
+                    <h2>My Links:</h2>
+                    <div class="contact-links">
+                        <a href="https://www.linkedin.com/in/menna-hekal-231286294/" target="_blank" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Menna107" target="_blank" class="icon github"><i class="fab fa-github"></i></a>
+                        <a href="mailto:menna0hekal2020@gmail.com" class="icon email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <div class="form-box">
+                        <form id="contact-form" class="contact-form">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+
+                            <button type="submit" class="btn send-btn">Send Message</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AOS Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
