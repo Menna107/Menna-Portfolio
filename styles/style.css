@@ -6,7 +6,7 @@ body.dark-mode {
 }
 
 body.dark-mode .navbar {
-  background-color: transparent;
+  background-color: #081b29;
 }
 
 body.dark-mode .nav-link {
@@ -45,8 +45,7 @@ body.light-mode {
 }
 
 body.light-mode .navbar {
-  background-color: white;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  background-color: #f7f9fb;
 }
 
 body.light-mode .nav-link,
@@ -966,19 +965,28 @@ section + section {
 }
 
 /* -------For Phones--------- */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 
-  .navbar {
-    padding: 10px 20px;
+  .navbar .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
 
-  .right-side {
-    margin-right: 20px;
-    gap: 15px;
+  .left-side, .right-side {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
+  
 
   .nav-link {
     font-size: 14px;
+  }
+
+  .brand-link h4 {
+    font-size: 16px;
   }
 
   .hero-section {
@@ -1100,4 +1108,50 @@ section + section {
     text-align: center;
   }
 
+  .navbar .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .left-side {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .brand-link h4 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .search-container {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .right-side {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: rgba(2,168,233,0.1);
+    text-align: center;
+  }
+
+  body.dark-mode .nav-link {
+    background-color: #0d2a3f;
+  }
+
+  body.light-mode .nav-link {
+    background-color: #f7f9fb;
+  }
 }
